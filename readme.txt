@@ -1,3 +1,5 @@
+BackEnd
+
 # nodemon 
 
 npm install nodemon -D
@@ -19,5 +21,17 @@ npm install mysql2
 npm install oracledb
 npm install mssql
 
+FrontEnd
 
+# React-Icons
+
+npm install react-icons
+
+# React Router Dom
+
+npm install react-router-dom
+
+# Axios
+
+npm install axios
 
