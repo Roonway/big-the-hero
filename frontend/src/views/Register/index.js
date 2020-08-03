@@ -19,7 +19,7 @@ export default function Register() {
     const history = useHistory();
 
     /**
-     * receber o evento no parâmetro "e" e definino ele como "preventDefault"
+     * receber o evento no parâmetro "e" e definindo ele como "preventDefault"
      * faz com que a página não recarregue assim que dê um submit
      */
     async function handleRegister(e) {
@@ -56,7 +56,7 @@ export default function Register() {
                     <Link className="back-link" to="/">
                         <FiArrowLeft size={16} color="#E02041" />
                         Não Tenho Cadastro
-                  </Link>
+                    </Link>
                 </section>
 
                 <form onSubmit={handleRegister}>

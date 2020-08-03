@@ -45,8 +45,11 @@
 }
 
 .profile-containter ul {
+    /* Define a exibição do conteúdo da lista ul em grid */
     display: grid;
+    /* Configura o grid para que ele tenha 2 colunas de 1frame */
     grid-template-columns: repeat(2, 1fr);
+    /* Define o espaço entre as colunas */
     grid-gap: 24px;
     list-style: none;
 }
